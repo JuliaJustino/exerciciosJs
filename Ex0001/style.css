@@ -1,0 +1,31 @@
+body{
+    background: chartreuse;
+    text-align: center;
+}
+h1{
+    font-size: 80pt;
+}
+section{
+    margin: 5px 5px 5px 5px;
+    background: white;
+    width: 500px;
+    padding: 25px 0px 25px 0px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+div#res{
+    margin-top: 20px;
+    padding: 15px 0px 15px 0px;
+    background-color: white;
+    width: 500px;
+    margin-left: 400px;
+}
+input#botao{
+    border-radius: 50px;
+    padding: 5px 85px 5px 85px;
+    text-align: center;
+}
+input#botao:hover{
+    background: #1100ff;
+    color: white;
+ }
