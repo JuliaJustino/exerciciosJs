@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: rgb(205, 243, 230);
+    background: rgb(164, 252, 247);
 }
 /*formatação da classe main-game*/
 .main-game{
@@ -39,6 +39,7 @@ body{
     background-color: red;
     border-top-right-radius: 100%;
 }
+
 .selected{
     -webkit-animation-name: blinker;
     -webkit-animation-iteration-count: 1;

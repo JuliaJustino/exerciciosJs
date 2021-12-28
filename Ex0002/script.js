@@ -46,9 +46,6 @@ let checkOrdem = () => {
     if (clickedOrdem.length == ordem.length) {
         alert(`Pontuação: ${score}\n você venceu esse nível! Iniciando próximo nível...`);
         proximoNivel();
-        if (score==5) {
-            perdeu();
-        }
     }
 }
 
