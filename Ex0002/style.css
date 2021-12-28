@@ -40,5 +40,13 @@ body{
     border-top-right-radius: 100%;
 }
 .selected{
-    opacity: 0.3;
-}
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: 1;
+ 
+    -webkit-animation-duration: 1s;
+    }
+
+@-webkit-keyframes blinker {
+    from { opacity: 2.0; }
+    to { opacity: 0.1; }
+  }
